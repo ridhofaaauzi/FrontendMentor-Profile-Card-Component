@@ -134,7 +134,7 @@ body {
   color: hsl(0, 0%, 59%);
 }
 
-@media screen and (min-width: 357px) {
+@media screen and (max-width: 357px) {
   .container .bg-pattern-top {
     width: 578px;
     height: 578px;
