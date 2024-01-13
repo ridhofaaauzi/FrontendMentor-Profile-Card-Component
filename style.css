@@ -15,8 +15,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
 .container .bg-pattern-top {
@@ -131,4 +132,20 @@ body {
 .container .card .card-body .card-social span {
   font-size: 15px;
   color: hsl(0, 0%, 59%);
+}
+
+@media screen and (min-width: 357px) {
+  .container .bg-pattern-top {
+    width: 578px;
+    height: 578px;
+    top: -224px;
+    left: -350px;
+  }
+
+  .container .bg-pattern-bottom {
+    width: 578px;
+    height: 578px;
+    right: -384px;
+    bottom: -184px;
+  }
 }
