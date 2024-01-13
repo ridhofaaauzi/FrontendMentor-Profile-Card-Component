@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.container .bg-pattern-top {
+  position: absolute;
+  background: url("images/bg-pattern-top.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 978px;
+  height: 978px;
+  top: -428px;
+  left: -84px;
+}
+
+.container .bg-pattern-bottom {
+  position: absolute;
+  background: url("images/bg-pattern-bottom.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 978px;
+  height: 978px;
+  right: -84px;
+  bottom: -484px;
+}
+
+.container .card .card-bg img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: auto;
+}
+
+.container .card {
+  width: 350px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 99;
+}
+
+.container .card .card-body {
+  position: relative;
+}
+
+.container .card .card-body .card-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.container .card .card-body .card-profile .card-description {
+  position: absolute;
+  margin-top: 2rem;
+}
+
+.container .card .card-body .card-profile .card-description .card-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.container .card .card-body .card-profile .card-description img {
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+.container .card .card-body .card-profile .card-description .card-location p {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 18px;
+  color: hsl(0, 0%, 59%);
+}
+
+.container .card .card-body .card-profile .card-description .card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.container .card .card-body .card-profile .card-description .card-title h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.container .card .card-body .card-profile .card-description .card-title p {
+  font-size: 18px;
+  color: hsl(0, 0%, 59%);
+}
+
+.container .card .card-body .card-line {
+  width: 100%;
+  border: 1px solid;
+  border-color: hsl(0, 10%, 95%);
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+}
+
+.container .card .card-body .card-social {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container .card .card-body .card-social h4 {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+
+.container .card .card-body .card-social span {
+  font-size: 15px;
+  color: hsl(0, 0%, 59%);
+}
